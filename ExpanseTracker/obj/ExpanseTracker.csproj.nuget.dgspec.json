@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER-PC\\Documents\\projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj": {}
+    "C:\\Users\\USER-PC\\Documents\\backend-projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER-PC\\Documents\\projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj": {
+    "C:\\Users\\USER-PC\\Documents\\backend-projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER-PC\\Documents\\projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj",
+        "projectUniqueName": "C:\\Users\\USER-PC\\Documents\\backend-projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj",
         "projectName": "ExpanseTracker",
-        "projectPath": "C:\\Users\\USER-PC\\Documents\\projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj",
+        "projectPath": "C:\\Users\\USER-PC\\Documents\\backend-projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj",
         "packagesPath": "C:\\Users\\USER-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER-PC\\Documents\\projects\\Expanse-Tracker\\ExpanseTracker\\obj\\",
+        "outputPath": "C:\\Users\\USER-PC\\Documents\\backend-projects\\Expanse-Tracker\\ExpanseTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
