@@ -1,7 +1,9 @@
-﻿class Program
+﻿using ExpenseTracker.CLI;
+
+class Program
 {
-    public static void Main(String[] args)
+    static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        CommandRouter.Route(args);
     }
 }
