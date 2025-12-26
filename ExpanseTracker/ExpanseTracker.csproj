@@ -1,10 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- Build a console executable -->
     <OutputType>Exe</OutputType>
+
+    <!-- Target framework -->
     <TargetFramework>net9.0</TargetFramework>
+
+    <!-- Enable modern C# defaults -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- CLI executable name -->
+    <AssemblyName>expense-tracker</AssemblyName>
+
+    <!-- Root namespace -->
+    <RootNamespace>ExpenseTracker</RootNamespace>
+
+    <!-- Allow running via `dotnet expense-tracker` -->
+    <StartupObject>Program</StartupObject>
   </PropertyGroup>
 
 </Project>

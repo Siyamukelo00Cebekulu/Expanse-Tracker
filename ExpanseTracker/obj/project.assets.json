@@ -14,7 +14,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\USER-PC\\Documents\\backend-projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj",
-      "projectName": "ExpanseTracker",
+      "projectName": "expense-tracker",
       "projectPath": "C:\\Users\\USER-PC\\Documents\\backend-projects\\Expanse-Tracker\\ExpanseTracker\\ExpanseTracker.csproj",
       "packagesPath": "C:\\Users\\USER-PC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER-PC\\Documents\\backend-projects\\Expanse-Tracker\\ExpanseTracker\\obj\\",
