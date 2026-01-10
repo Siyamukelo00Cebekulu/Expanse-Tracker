@@ -5,6 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // happy path
         var argsList = args.ToList();
         if (!argsList.Any()) return;
 
@@ -19,6 +20,8 @@ class Program
             case "summary":
                 break;
             case "delete":
+                DeleteCommand.Execute(args);
+                break;
             case "budget":
                 break;
         }

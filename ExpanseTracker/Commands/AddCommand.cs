@@ -1,7 +1,11 @@
-﻿namespace ExpenseTracker;
+﻿using System;
+
+namespace ExpenseTracker;
 
 public class AddCommand
 {
+    
+    
     public static void Execute(string[] args)
     {
 
@@ -10,7 +14,10 @@ public class AddCommand
         string category = CLIParser.GetArg(args, "--category", "General");
 
         var expenses = Storage.LoadExpenses();
-        int id = expenses.Any() ? expenses.Max(e => e.Id) + 1 : 1;
+        
+        // Change to assign the lowest Available ID
+        Random random = new Random();
+        int id = expenses.Any() ? random.Next(1,1000): 1;
 
         expenses.Add(new Expense
         {

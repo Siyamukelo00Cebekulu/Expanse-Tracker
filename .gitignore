@@ -6,6 +6,9 @@
 # dotenv files
 .env
 
+# .csv (I do not want this to be commited since it holds the expenses)
+*.csv
+
 # User-specific files
 *.rsuser
 *.suo

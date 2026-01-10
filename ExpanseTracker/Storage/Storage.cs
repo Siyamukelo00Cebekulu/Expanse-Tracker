@@ -11,6 +11,7 @@ public class Storage
     {
         if (!File.Exists(ExpenseFile)) return new();
 
+
         return File.ReadAllLines(ExpenseFile)
             .Select(line => line.Split(','))
             .Select(p => new Expense
