@@ -24,6 +24,7 @@ class Program
                 DeleteCommand.Execute(args);
                 break;
             case "summary":
+                SummaryCommand.Execute(args);
                 break;
             case "budget":
                 break;
