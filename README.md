@@ -23,6 +23,10 @@ A simple command-line application to help users manage their finances. The appli
 - **Export to CSV**:
   - Export all expense data to a CSV file for external use or backup.
 
+### Data Storage
+
+Expenses are stored locally (e.g., JSON or CSV via the Storage class).
+No external database is required.
 
 ## EXPECTED OUTPUT
 
