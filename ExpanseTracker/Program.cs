@@ -17,10 +17,13 @@ class Program
             case "list":
                 ListCommand.Execute();
                 break;
-            case "summary":
+            case "update":
+                UpdateCommand.Execute(args);
                 break;
             case "delete":
                 DeleteCommand.Execute(args);
+                break;
+            case "summary":
                 break;
             case "budget":
                 break;
