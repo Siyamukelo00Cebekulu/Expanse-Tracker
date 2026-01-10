@@ -27,6 +27,7 @@ class Program
                 SummaryCommand.Execute(args);
                 break;
             case "budget":
+                BudgetCommand.Execute(args);
                 break;
         }
     }

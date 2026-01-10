@@ -6,6 +6,8 @@ public class Storage
 {
     private static readonly string ExpenseFile = "expenses.csv";
 
+    private static readonly string BudgetFile = "budget.csv";
+
 
     public static List<Expense> LoadExpenses()
     {

@@ -16,7 +16,6 @@ public class AddCommand
         var expenses = Storage.LoadExpenses();
         
         // Change to assign the lowest Available ID
-        Random random = new Random();
         int id = expenses.Any() ? expenses.Max(e => e.Id) + 1 : 1;
 
         expenses.Add(new Expense
